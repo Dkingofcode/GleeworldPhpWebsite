@@ -1,0 +1,360 @@
+/* General Bootstrap Layout Overrides */
+.Hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.Hero .hero-image img {
+    width: 500px; 
+    height: 390px;
+}
+
+.hero-text, .hero-image {
+    opacity: 1;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.hero-text.hidden, .hero-image.hidden {
+    transform: translateX(-100px); /* Text moves from left */
+}
+
+.hero-image.hidden {
+    transform: translateX(100px); /* Image moves from right */
+}
+
+.animate {
+    opacity: 1;
+    transform: translateX(0); /* Return to original position */
+}
+
+.Intro {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.Intro > div {
+    display: flex;
+}
+
+.Intro > p{
+    
+}
+
+.Intro .IntroHead{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Intro > .IntroText{
+       
+}
+
+/* 
+.Intro > .col-md-6 {
+    border: 3px solid red;
+    width: 100px;
+    height: 200px;
+} */
+
+.serviceHead{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.serviceblock{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 60px;
+}
+
+.serviceblock > div{
+    border: 3px solid grey;
+    border-radius: 30px;
+    width: 790px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+.serviceblock > div > p{
+    width: 150px;
+}
+
+.serviceblock > div > img {
+    width: 230px;
+}
+
+@media  (max-width: 700px){
+    .serviceblock{
+        display: flex;
+        flex-wrap: wrap;        
+    }
+
+    .serviceblock > div{
+        display: block;
+        margin: 0 auto;
+        width:  60%;
+        border: 3px solid grey;
+    }
+
+    
+.serviceblock > div > img {
+    width: 80px;
+  }
+}
+
+
+.Services {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.serviceGroup {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.serviceGroup .Service-card article a {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    align-items: center;
+    width: 120px;
+    padding: 1px 1px 2px 0px;
+}
+
+.serviceGroup .Service-card article p {
+    width: 290px;
+}
+
+.serviceGroup .Service-card article a img {
+    width: 10px;
+    height: 10px;
+}
+
+.Servicebtn {
+    border: 1px solid burlywood;
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.serviceGroup .Service-card article a img {
+    width: 20px;
+    height: 20px;
+}
+
+.carousell img {
+    height: 100px; /* Adjust image height as needed */
+    margin-right: 20px;
+    animation: move 90s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.Patners {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Patners .carousel {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;   
+}
+
+.Patners .carousel-inner {
+    display: flex;
+    gap: 90px;
+}
+
+.Patners .carousel-inner img {
+    height: 100px; /* Adjust image height as needed */
+    margin-right: 20px;
+    animation: move 15s linear infinite;
+}
+
+
+
+
+.Testimonials {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.slider img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.Quotation {
+    display: block;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons button {
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background-color: #ddd;
+}
+
+.Contact button {
+    padding: 20px 10px;
+    border-radius: 30px;
+    margin-top: 50px;
+    background-color: transparent;
+    border: 1px solid #FF9933;
+    color: #FF9933; 
+}
+
+.NewsLetter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.NewsLetter h1 {
+    color: #000040;
+    font-size: 36px;
+}
+
+.NewsLetter p {
+    font-size: 15px;
+}
+
+.NewsLetter .subscribe {
+    border: 2px solid #FF9933;
+    margin: 0 auto;
+    width: 500px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.NewsLetter .subscribe input {
+    padding: 5px 12px;
+    border-radius: 30px;
+    width: 70%;
+}
+
+.NewsLetter .subscribe button {
+    background-color: #000040;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 25%;
+}
+
+.left-footer span {
+    color: #FF9933;
+}
+
+.FooterSection {
+    padding: 0px 90px;
+    font-size: 12px;
+}
+
+.FooterSection p, .FooterSection a {
+    font-size: 15px;
+}
+
+.googleplaybtn {
+    width: 90px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    .Hero {
+        display: flex;
+        justify-content: space-between;
+        padding: 70px 100px;
+        gap: 120px;
+        flex-wrap: wrap;
+    }
+
+    .serviceGroup {
+        justify-content: center;
+        gap: 50px;
+        padding: 10px 50px;
+        flex-wrap: wrap;
+    }
+
+    .Servicebtn {
+        margin: 50px 0;
+        padding: 10px;
+        border-radius: 50px;
+        width: 240px;
+        display: flex;
+        justify-content: center;
+        margin: 50px auto;
+        gap: 30px;
+    }
+
+    .NewsLetter .subscribe {
+        width: 500px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 968px) {
+    .Hero .hero-image img {
+        width: 80%; 
+        height: 80%;
+    }
+
+    .NewsLetter .subscribe {
+        width: 80%;
+        height: 80%;
+    }
+}

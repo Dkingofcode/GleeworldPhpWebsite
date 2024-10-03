@@ -71,7 +71,7 @@ function renderContact($question, $message, $text, $formtext, $btntext, $font) {
     </div>
 
     <!-- Contact Form -->
-    <form class="mt-4" action="send_email.php" method="POST">
+    <form class="mt-4" action="./send-email.php" method="post">
         <div class="mb-3">
             <label for="name" class="form-label">Enter your name</label>
             <input type="text" name="name" class="form-control" id="name" placeholder="Type your first name here">
@@ -87,16 +87,48 @@ function renderContact($question, $message, $text, $formtext, $btntext, $font) {
             <textarea name="message" class="form-control" id="message" rows="5" placeholder="Write your <?php echo $formtext; ?> here"></textarea>
         </div>
 
-        <button type="submit" class="btn btn-outline-warning"><?php echo $btntext; ?></button>
+        <button type="submit" class="btn btn-outline-warning"> Send News</button>
     </form>
 </div>
 
+
+<!-- <script> 
+       function sendEmail() {
+          const name = document.getElementById('name').value;
+          const email = document.getElementById('email').value;
+          const message =document.getElementById('message').value;
+
+          // Create the mailto link
+          const subject = `Message from ${name}`;
+          const body = `Name: \nMessage:\n${message}`;
+
+          const mailtoLink = `mailto:hello@gleeworld.com.ng?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+          // Redirect to the mailto link
+          window.location.href = mailtoLink;
+           
+          // Update the DOM to show the thank you message
+          document.getElementById('contactForm').style.display = 'none'; // Hide the form
+          document.getElementById('thankyouMessage').innerHTML = `
+        <div class="container">
+          <h1>Thank you for contacting Us. We will get back to you as soon as possible</h1>
+          <p>Go back to the <a href="index.php">homepage</a> </p>
+           </div>
+          )`;
+
+          return false; // Prevent form submission behaviour
+       };
+
+    </script> -->
+
+
+<!-- 
 <script>
 document.querySelector('form').addEventListener('submit', function(e) {
     e.preventDefault(); // Prevent form submission for now
     alert('Form submitted successfully!');
 });
-</script>
+</script> -->
 
 
 <?php

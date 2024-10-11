@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gleeworld Pharmacy</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-   <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/index.css">
-
-
+   <link rel="stylesheet" href="./style.css"> 
+    <link rel="stylesheet" href="./index.css">
 
 
 </head>
@@ -28,10 +26,10 @@
                 <p>Empowering Independent Pharmacies, Connecting communities, <br /> we are committed to strengthening the bonds between local Pharmacies
                  and the areas they serve.</p>
                 <button class="btn btn-primary">
-                    Order Medications Now <img src="./public/Vector.png" alt='arrow button' /></button>
+                    Order Medications Now <img src="Vector.png" alt='arrow button' /></button>
             </div>
             <div class="col-md-6">
-                <img src="./public/heroimg.png" alt="Hero Image" class="img-fluid">
+                <img src="heroimg.png" alt="Hero Image" class="img-fluid">
             </div>
         </div>
     
@@ -45,7 +43,7 @@
 
            <div class="IntroText">
             <div class="col-md-6">
-                <img src="./public/GroupPic.png" class="img-fluid" alt="Intro Image">
+                <img src="GroupPic.png" class="img-fluid" alt="Intro Image">
             </div>
             <div class="col-md-6">
                 <p>
@@ -70,35 +68,35 @@
             
             <div class="serviceblock">
             <div>
-            <img src="./public/hospital.png"  alt="Introimg" />
+            <img src="hospital.png"  alt="Introimg" />
   
                 <h3>Telepharmacy Services</h3>
                 <p>We provide remote pharmaceutical care...</p>
                 
-                <a><p>learn more</p> <img  src="./public/Vector.png" alt="arrowimg"  /></a>
+                <a><p>learn more</p> <img  src="Vector.png" alt="arrowimg"  /></a>
             </div>
 
             <div>
-               <img  src="./public/Courier.png" />
+               <img  src="Courier.png" />
 
                 <h3>Delivery Services</h3>
                 <p>We provide remote pharmaceutical care...</p>
 
-                <a><p>learn more</p> <img  src="./public/Vector.png" alt="arrowimg"  /></a>
+                <a><p>learn more</p> <img  src="Vector.png" alt="arrowimg"  /></a>
             </div>
 
             <div>
-                <img src="./public/Pic.png" />
+                <img src="Pic.png" />
 
                 <h3>Pharmaceutical Distribution</h3>
                 <p>We provide remote pharmaceutical care...</p>
 
-                <a><p>learn more</p> <img  src="./public/Vector.png" alt="arrowimg"  /></a>
+                <a><p>learn more</p> <img  src="Vector.png" alt="arrowimg"  /></a>
             </div>
 
             </div>
 
-            <button class="btn btn-primary">Check all services <img src="./public/Vector.png" alt='arrow button' />
+            <button class="btn btn-primary">Check all services <img src="Vector.png" alt='arrow button' />
             </button>
 
           </div>
@@ -113,7 +111,7 @@
             <div class='Newscontainer'>
 
            <div class='News-card'>
-                <img src="./public/Mobile.png" alt="Introimg" />
+                <img src="Mobile.png" alt="Introimg" />
 
                 <article>
                   <h3>Gleeworld Pharmacy launches Medfinder app to connect users with local pharmacies.</h3>
@@ -122,12 +120,12 @@
                     ensuring access to expert advice and medication management from
                     the comfort of your home.
                   </p>
-                  <a>learn more <img src="./public/Vector.png" alt="arrowimg"  /></a>
+                  <a>learn more <img src="Vector.png" alt="arrowimg"  /></a>
                 </article>
                </div>
 
                <div class='News-card'>
-                <img src="./public/cooperate.png" alt="Introimg" />
+                <img src="cooperate.png" alt="Introimg" />
 
                 <article>
                   <h3>Innovative technology tools by Gleeworld are transforming small independent pharmacies.</h3>
@@ -136,12 +134,12 @@
                     ensuring access to expert advice and medication management from
                     the comfort of your home.
                   </p>
-                  <a>learn more <img src="./public/Vector.png" alt="arrowimg"  /></a>
+                  <a>learn more <img src="Vector.png" alt="arrowimg"  /></a>
                 </article>
                </div>
 
                <div class='News-card'>
-                <img src="./public/Serverpic.png" alt="Introimg" />
+                <img src="Serverpic.png" alt="Introimg" />
 
                 <article>
                   <h3>Introducing Open Patient: Medfinder App Revolutionizes Patient Access to care</h3>
@@ -149,7 +147,7 @@
                     ensuring access to expert advice and medication management from
                     the comfort of your home.
                   </p>
-                  <a>learn more <img src="./public/Vector.png" alt="arrowimg"  /></a>
+                  <a>learn more <img src="Vector.png" alt="arrowimg"  /></a>
                 </article>
                </div>
 
@@ -158,7 +156,7 @@
            
                <div class='Newsbtn'>
                <a href="./News.php">Read news</a>
-             <img src="./public/blackVector.png" alt="news" />
+             <img src="blackVector.png" alt="news" />
             </div>
         
            
@@ -166,12 +164,12 @@
 
            <!---  Carousell ----->
            <div class='carousell'>
-            <img src="./public/wimbart.png" />
-            <img src="./public/techCabal.png" />
-            <img src="./public/techhawk.png" />
-            <img src="./public/te.png" />
-            <img src="./public/vc4a.png" />
-            <img src="./public/techNext.png" />
+            <img src="./wimbart.png" />
+            <img src="./techCabal.png" />
+            <img src="./techhawk.png" />
+            <img src="./te.png" />
+            <img src="./vc4a.png" />
+            <img src="./techNext.png" />
            </div>
 
           <!---  Achievements  -->
@@ -210,7 +208,7 @@
               <div class='history'>
 
                <div class='col1'>
-                  <img src="./public/star.svg.png" alt="" />
+                  <img src="./star.svg.png" alt="" />
 
                   <article>
                     <h2>5+ years experience</h2>
@@ -219,7 +217,7 @@
               </div>
 
               <div class='col2'>
-              <img src="./public/smile.svg.png" alt="" />
+              <img src="./smile.svg.png" alt="" />
 
               <article>
               <h2>Efficient process, Optimal result </h2>
@@ -228,7 +226,7 @@
               </div>   
 
               <div class='col3'>
-                <img src="./public/users.svg.png" alt=""  /> 
+                <img src="./users.svg.png" alt=""  /> 
                
                <article>
               <h2>Professional medical team</h2>
@@ -249,11 +247,11 @@
               <div style="display: flex; flex-direction: column;" class='carousel'>
                 
                 <div  class='carousel-inner'>
-                    <img src="./public/UkTechHub.png"  />
-                    <img src="./public/ThinkMD.png"  />
-                    <img src="./public/wellahealth.png"  />
-                    <img src="./public/VenusMedicare.png"  />
-                    <img src="./public/V.png"  />
+                    <img src="./UkTechHub.png"  />
+                    <img src="./ThinkMD.png"  />
+                    <img src="./wellahealth.png"  />
+                    <img src="./VenusMedicare.png"  />
+                    <img src="./V.png"  />
                 </div>
                
 
@@ -268,7 +266,7 @@
               
 
               <div class='Advert' >
-                <img class='line' src="./public/line.png" alt="crossimg" />
+                <img class='line' src="./line.png" alt="crossimg" />
                 <article>
                   <h1>Enjoy 5% off your first<br /> monthly orders</h1>
 
@@ -279,14 +277,14 @@
                 
                   <button>
                     Download Medfinder
-                     <img src="./public/blackVector.png" alt=""  />
+                     <img src="./blackVector.png" alt=""  />
                   </button> 
                 </article>
                 
                  
-                <img class='phone' src="./public/Phonepic.png" alt="Phone image" />
+                <img class='phone' src="./Phonepic.png" alt="Phone image" />
 
-                <img class='ellipse' src="./public/Elipse.png" alt='Three bullet points'  />  
+                <img class='ellipse' src="./Elipse.png" alt='Three bullet points'  />  
               </div>
 
            </div>
@@ -419,14 +417,14 @@
              <div style="display: flex; flex-direction: column;" class='right-footer'>
                <h4>Social Media</h4>
                <div class='images'>
-                 <a><img src="./public/Linkedin.png" width="" /></a> 
-                 <a><img src="./public/Twitter.png" width="" /></a> 
-                 <a><img src="./public/Instagram.png" width="" /></a> 
-                 <a><img src="./public/facebook.png" width="" /></a> 
+                 <a><img src="./Linkedin.png" width="" /></a> 
+                 <a><img src="./Twitter.png" width="" /></a> 
+                 <a><img src="./Instagram.png" width="" /></a> 
+                 <a><img src="./facebook.png" width="" /></a> 
                </div>
                <p>Download the Medfinder App</p>
                <div class='googleplaybtn'>
-                  <img src="./public/Googleplay.png"  /> 
+                  <img src="./Googleplay.png"  /> 
                </div>
                <p>2024 Gleeworld Pharmacy</p>
                <p class='footer-links'><a>Terms of Service</a> | <a>Privacy Policy</a></p>

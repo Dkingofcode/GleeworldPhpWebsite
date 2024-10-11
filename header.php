@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/header.css"> <!-- Add your custom CSS file -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./header.css"> <!-- Add your custom CSS file -->
     <title>Header</title>
 </head>
 <body>
     <div class="header">
         <div class="navigation">
             <div class="Navlogo">
-                <a href="index.php"><img src="./public/gleeworldlogo.png" alt="logo"></a>
+                <a href="index.php"><img src="./gleeworldlogo.png" alt="logo"></a>
             </div>
 
             <!-- Hamburger Button -->
@@ -28,14 +28,14 @@
             </nav>
 
             <div class="chatBtn-mobile" onclick="copyPhoneNumber()" style="cursor: pointer;">
-                <img src="./public/logowhatsappicon.png" alt="whatsapp icon"> Chat
+                <img src="./logowhatsappicon.png" alt="whatsapp icon"> Chat
             </div>
             <div class="chatBtn" onclick="copyPhoneNumber()">
-                Chat with a pharmacist <img src="./public/logowhatsappicon.png" alt="whatsapp icon">
+                Chat with a pharmacist <img src="./logowhatsappicon.png" alt="whatsapp icon">
             </div>
         </div>
     </div>
 
-    <script src="./js/header.js"></script> <!-- Add your custom JS file -->
+    <script src="./header.js"></script> <!-- Add your custom JS file -->
 </body>
 </html>

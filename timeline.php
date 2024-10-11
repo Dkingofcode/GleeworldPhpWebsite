@@ -56,12 +56,12 @@
         <div class="group d-flex flex-column align-items-center">
             <!-- Slider Container for Images -->
             <div class="slider-container" style="position: relative">
-                <img src="./public/Frame2019.png"  id="2019" alt="History 2019" class="image-fluid active"  />
-                <img src="./public/Frame2020.png" id="2020" alt="History 2020" class="image-fluid inactive" />
-                <img src="./public/Frame2021.png" id="2021" alt="History 2021" class="image-fluid inactive" />
-                <img src="./public/Frame2022.png" id="2022" alt="History 2022" class="image-fluid inactive" />
-                <img src="./public/Frame2023.png" id="2023" alt="History 2023" class="image-fluid inactive" />
-                <img src="./public/Frame2024.png" id="2024" alt="History 2024" class="image-fluid inactive" />
+                <img src="./Frame2019.png"  id="2019" alt="History 2019" class="image-fluid active"  />
+                <img src="./Frame2020.png" id="2020" alt="History 2020" class="image-fluid inactive" />
+                <img src="./Frame2021.png" id="2021" alt="History 2021" class="image-fluid inactive" />
+                <img src="./Frame2022.png" id="2022" alt="History 2022" class="image-fluid inactive" />
+                <img src="./Frame2023.png" id="2023" alt="History 2023" class="image-fluid inactive" />
+                <img src="./Frame2024.png" id="2024" alt="History 2024" class="image-fluid inactive" />
             </div>
 
             <!-- Time Links (Buttons) -->

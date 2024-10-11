@@ -90,7 +90,7 @@ function renderAdvert() {
 ?>
 <div class="advert container-fluid my-5 py-5">
     <!-- Line Image -->
-    <img class="line" src="./public/line.png" alt="crossimg" />
+    <img class="line" src="./line.png" alt="crossimg" />
 
     <!-- Text Section -->
     <article>
@@ -101,13 +101,13 @@ function renderAdvert() {
         </p>
         <button onclick="notifySuccess()">
             Download Medfinder
-            <img src="./public/blackVector.png" alt="Arrow" />
+            <img src="./blackVector.png" alt="Arrow" />
         </button>
     </article>
 
     <!-- Phone and Ellipse Images -->
-    <img class="phone" src="./public/Phonepic.png" alt="Phone image" />
-    <img class="ellipse" src="./public/Elipse.png" alt="Three bullet points" />
+    <img class="phone" src="./Phonepic.png" alt="Phone image" />
+    <img class="ellipse" src="./Elipse.png" alt="Three bullet points" />
 </div>
 
 <script>

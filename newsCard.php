@@ -48,11 +48,11 @@ function renderNewsCard() {
         <!-- First News Card -->
         <div class="col-md-4">
             <div class="news-card card h-100">
-                <img src="./public/Mobile.png" class="card-img-top" alt="Medfinder app launch" />
+                <img src="./Mobile.png" class="card-img-top" alt="Medfinder app launch" />
                 <div class="card-body">
                     <h3 class="card-title">Gleeworld Pharmacy launches Medfinder app to connect users with local pharmacies.</h3>
                     <p class="card-text">We provide remote pharmaceutical care and consultations, ensuring access to expert advice and medication management from the comfort of your home.</p>
-                    <a href="#" class="card-link">Learn more <img src="./public/Vector.png" alt="arrow icon"></a>
+                    <a href="#" class="card-link">Learn more <img src="./Vector.png" alt="arrow icon"></a>
                 </div>
             </div>
         </div>
@@ -60,11 +60,11 @@ function renderNewsCard() {
         <!-- Second News Card -->
         <div class="col-md-4">
             <div class="news-card card h-100">
-                <img src="./public/cooperate.png" class="card-img-top" alt="Innovative technology tools" />
+                <img src="./cooperate.png" class="card-img-top" alt="Innovative technology tools" />
                 <div class="card-body">
                     <h3 class="card-title">Innovative technology tools by Gleeworld are transforming small independent pharmacies.</h3>
                     <p class="card-text">We provide remote pharmaceutical care and consultations, ensuring access to expert advice and medication management from the comfort of your home.</p>
-                    <a href="#" class="card-link">Learn more <img src="./public/Vector.png" alt="arrow icon"></a>
+                    <a href="#" class="card-link">Learn more <img src="./Vector.png" alt="arrow icon"></a>
                 </div>
             </div>
         </div>
@@ -72,11 +72,11 @@ function renderNewsCard() {
         <!-- Third News Card -->
         <div class="col-md-4">
             <div class="news-card card h-100">
-                <img src="./public/Serverpic.png" class="card-img-top" alt="Open Patient" />
+                <img src="./Serverpic.png" class="card-img-top" alt="Open Patient" />
                 <div class="card-body">
                     <h3 class="card-title">Introducing Open Patient: Medfinder App Revolutionizes Patient Access to care</h3>
                     <p class="card-text">We provide remote pharmaceutical care and consultations, ensuring access to expert advice and medication management from the comfort of your home.</p>
-                    <a href="#" class="card-link">Learn more <img src="./public/Vector.png" alt="arrow icon"></a>
+                    <a href="#" class="card-link">Learn more <img src="./Vector.png" alt="arrow icon"></a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,24 @@
+.services .card {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.services .card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.services .card-body h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.services .card-body p {
+    font-size: 17px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.faq-section .accordion-item {
+    margin-bottom: 15px;
+}

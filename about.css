@@ -1,0 +1,27 @@
+
+
+
+
+       /* General Styles */
+       .about-page .intro {
+           padding: 50px 0;
+       }
+       .mission {
+           padding: 90px 10px;
+           font-size: 12px;
+       }
+       .mission .mission-text {
+           font-size: 20px;
+           text-align: center;
+       }
+       .stakeholders .card {
+           border: 1px solid darkgray;
+           border-radius: 20px;
+           width: 383px;
+           margin: 20px;
+       }
+       .stakeholders .card p, .stakeholders .card h3, .stakeholders .card a {
+           padding: 0 30px;
+       }
+
+

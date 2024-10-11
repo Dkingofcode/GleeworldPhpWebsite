@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/services.css" >
-    <link rel="stylesheet" href="./css/index.css" >
+    <link rel="stylesheet" href="./services.css" >
+    <link rel="stylesheet" href="/index.css" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <title>Document</title>
@@ -15,7 +15,7 @@
     
     <!-- Hero Section -->
     <section class="hero">
-        <img src="./public/HeroSectionservices.png" alt="Hero Section" class="img-fluid">
+        <img src="./HeroSectionservices.png" alt="Hero Section" class="img-fluid">
     </section>
     
     <!-- Services Section -->
@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="./public/Nurse.png" class="card-img-top" alt="Telepharmacy Services">
+                    <img src="./Nurse.png" class="card-img-top" alt="Telepharmacy Services">
                     <div class="card-body">
                         <h5 class="card-title">01. Telepharmacy Services</h5>
                         <p class="card-text">Receive expert healthcare advice from the comfort of your home. Consult remotely with our licensed pharmacists to get the medications and guidance you need, skipping the wait times at traditional pharmacies.</p>
@@ -34,7 +34,7 @@
             
         <div class="col-md-4 mb-4">
             <div class="card">
-                <img src="./public/Prescriptions.png" class="card-img-top" alt="Order Medications">
+                <img src="./Prescriptions.png" class="card-img-top" alt="Order Medications">
                 <div class="card-body">
                     <h5 class="card-title">02. Prescription Services</h5>
                     <p class="card-text">Order medications for yourself, your family, or your employees with ease. Our reliable delivery service ensures your medications arrive safely and promptly.</p>
@@ -45,7 +45,7 @@
         
         <div class="col-md-4 mb-4">
             <div class="card">
-                <img src="./public/DrugStore.png" class="card-img-top" alt="Pharmaceutical Distribution">
+                <img src="./DrugStore.png" class="card-img-top" alt="Pharmaceutical Distribution">
                 <div class="card-body">
                     <h5 class="card-title">03. Pharmaceutical Distribution</h5>
                     <p class="card-text">We are a trusted partner for independent pharmacies across Nigeria. Learn how Gleeworld can improve your business.</p>

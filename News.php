@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News</title>
     
-    <link rel="stylesheet" href="./css/index.css"  />
+    <link rel="stylesheet" href="./index.css"  />
 
 </head>
 <body>
@@ -18,7 +18,7 @@
 
     <!-- Hero Section -->
     <div class="hero">
-        <img src="./public/HeroSection.png" alt="Hero Image" style="width: 100%; height: 100%;" />
+        <img src="./HeroSection.png" alt="Hero Image" style="width: 100%; height: 100%;" />
     </div>
 
     <!-- Trending Section -->

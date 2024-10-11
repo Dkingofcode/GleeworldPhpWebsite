@@ -9,8 +9,8 @@ function renderFooter() {
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Document</title>
-            <link rel="stylesheet" href="./css/index.css"  />
-            <link rel="stylesheet" href="./css/style.css"  />
+            <link rel="stylesheet" href="./index.css"  />
+            <link rel="stylesheet" href="./style.css"  />
             <style>
 footer {
     background-color: #f8f9fa;
@@ -94,14 +94,14 @@ footer .text-warning {
             <div style="display: flex; flex-direction: column;" class='right-footer'>
               <h4>Social Media</h4>
               <div class='images'>
-                <a><img src="./public/Linkedin.png" width="" /></a> 
-                <a><img src="./public/Twitter.png" width="" /></a> 
-                <a><img src="./public/Instagram.png" width="" /></a> 
-                <a><img src="./public/facebook.png" width="" /></a> 
+                <a><img src="./Linkedin.png" width="" /></a> 
+                <a><img src="./Twitter.png" width="" /></a> 
+                <a><img src="./Instagram.png" width="" /></a> 
+                <a><img src="./facebook.png" width="" /></a> 
               </div>
               <p>Download the Medfinder App</p>
               <div class='googleplaybtn'>
-                 <img src="./public/Googleplay.png"  /> 
+                 <img src="./Googleplay.png"  /> 
               </div>
               <p>2024 Gleeworld Pharmacy</p>
               <p class='footer-links'><a>Terms of Service</a> | <a>Privacy Policy</a></p>
